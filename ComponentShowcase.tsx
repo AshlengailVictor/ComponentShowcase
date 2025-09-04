@@ -10,6 +10,12 @@ const ComponentShowcase = () => {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Nice to Meet You</Text>
 
+        <Text style={styles.sectionTitle}>Me</Text>
+      <Image
+        source={require('./assets/me.jpg')} // <- your image file path
+        style={styles.image}
+      />
+
       <Text style={styles.sectionTitle}>About Me</Text>
       <Text style={styles.text}>
         Hi! I'm Ashlengail Victor, turning 22 this upcoming October. 
